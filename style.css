@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, 'Times New Roman';
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background: #1F2937;
+  color: white;
+}
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  background: #1F2937;
+  color: white;
+}
+.hero-content {
+  max-width: 50%;
+}
+.main-text {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.secondary-text {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-bottom: 10px;
+}
+.btn {
+  background-color: #3882F6;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.hero-image {
+  width: 500px;
+  height: 200px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.info {
+  text-align: center;
+  padding: 50px;
+}
+.info-header{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 150px;
+  text-align: center;
+}
+.image-placeholder {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882F6;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.quote {
+  padding: 100px;
+  background: #E5E7EB;
+  font-style: italic;
+  font-size: 24px;
+}
+.quote-text {
+  font-size: 36px;
+  color: #1F2937;
+}
+.name {
+  font-weight: bold;
+  text-align: right;
+  font-style: normal;
+}
+.sign-up {
+  padding: 70px 100px;
+}
+.sign-up-box {
+  background: #3882F6;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  color: #F9FAF8;
+  padding: 40px 80px;
+  border-radius: 10px;
+}
+.text p {
+  color: #E5E7EB;
+}
+.btn-two {
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #F9FAF8;
+  background: #1F2937;
+}
